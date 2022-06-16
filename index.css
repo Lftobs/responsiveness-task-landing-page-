@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+header {
+    background: #C9F0FF;
+    background-image: url('img/bg-hero-desktop (3).svg');
+    width: 100%;
+    height: 600px;
+   
+}
+.nav {
+    display: flex;
+    gap:60%;
+    margin-bottom: 55px;
+    justify-content: center;
+}
+.nav img {
+    width: 105px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 28px;        
+}
+.nav button {
+    margin-top: 20px;
+    width: 85px;
+    height: 30px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2) ;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background: white;
+    font-weight: 600;
+    color: hsl(192, 100%, 9%);
+   /* margin-right: 25px;*/
+}
+.nav-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-h {
+    width: 450px;
+    height: 360px;
+    padding: 38px;
+}
+.text-h h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: hsl(192, 100%, 9%);
+}
+.text-h p {
+    font-size: 12px;
+    margin-bottom: 45px;
+    color: hsl(192, 100%, 9%);
+}
+.text-h button {
+    width: 50%;
+    height: 40px;
+    background: hsl(322, 100%, 66%);
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    color: hsl(193, 100%, 96%);
+    font-size: 15px;
+}
+.text-h button:hover, .ci button:hover, .nav button:hover {
+    background: #ff80f1;
+    transition: .1s ease-in;
+}
+.img-h {
+    width: 450px;
+    height: 360px;
+}
+img {
+    width: 450px;
+    height:360px ; 
+}
+/*section*/
+.main-c {
+    display: grid;
+    gap: 25px;
+    justify-content: center;
+}
+.c1, .c2, .c3 {
+    width: 830px;
+    height: 250px;
+    background: white;
+    border-radius: 15%;
+    background-size: 280px 200px;
+    padding: 70px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2) ;
+}
+
+.c1 {
+    margin-top: 90px;
+    border-radius: 15px;
+    background-image: url('img/illustration-grow-together.svg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: right center;
+}
+.c2 {
+    
+    border-radius: 15px;
+    background-image: url('img/illustration-flowing-conversation.svg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: right center;
+}
+.c3 {
+    margin-bottom: 200px;
+    border-radius: 15px;
+    background-image: url('img/illustration-your-users.svg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: right center;
+}
+.c1-text, .c2-text, .c3-text {
+    width: 280px;
+}
+.c1-text h3, .c2-text h3, .c3-text h3 {
+    font-weight: 500;
+    color: hsl(192, 100%, 9%);
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+.c1-text p, .c2-text p, .c3-text p {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+}
+
+.ci {
+      width: 420px;
+      height: 150px;
+      border-radius: 15px;
+      background: white;
+      text-align: center;
+      margin-left: 31%;
+      padding: 10px;
+      box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2) ;
+      position: relative;
+      top: -15%;
+  }
+.ci h3 {
+      margin-top: 10px;
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+.ci button {
+      width: 50%;
+      height: 30px;
+      background: hsl(322, 100%, 66%);
+      border-radius: 25px;
+      border: none;
+      outline: none;
+      color: hsl(193, 100%, 96%);
+      font-size: 15px;
+  }
+   
+footer {
+    background: hsl(192, 100%, 9%);
+    width: 100%;
+    height: 470px;
+}
+.g1 {
+    display: flex;
+    gap:40px;
+}
+.g1 img {
+    height: 30px;
+    width: 115px;
+    margin-bottom: 20px;
+    fill: hsl(193, 100%, 96%);
+}
+.ad {
+    margin-left: 100px;
+    margin-top: -25px;
+}
+td {
+    height: 30px;
+    width: 20px;
+    font-size: 15px;
+    color: hsl(193, 100%, 96%);
+}
+i {
+    height: 2px;
+    width: 2px;
+    color: white;
+} 
+.link-c {
+    display: flex;
+    gap:170px;
+    margin-left: -150px;
+}
+.link, .link2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+    color: hsl(193, 100%, 96%);
+} 
+.s a i {
+    width:37px ;
+    height: 37px;
+    display:inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;    
+    font-size: 15px;
+    top: 18px;
+    bottom: 18px;
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid hsl(193, 100%, 96%);
+    background: transparent;
+   
+} 
+.s a {
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 20px;
+} 
+.s a i:hover {
+    transition: .1s ease in;
+    color: hsl(322, 100%, 66%);
+    border: 2px solid hsl(322, 100%, 66%);
+} 
+.p {
+      display: hidden;
+      font-size: 12px;
+      text-align: center;
+      margin-left: 700px;
+      margin-top: -100px;
+      color: hsl(193, 100%, 96%);
+  }
+@media(max-width:375px){
+    header {
+        height: 790px;
+    }
+    .nav {
+        gap:45%
+    }
+    .nav-main {
+        flex-direction: column;
+        
+    }
+    .nav img {
+        margin-left: 0;
+        width: 95;
+        height: 20px;
+        margin-top: 28px;
+    }
+    .text-h, .img-h {
+        width: 300px;
+        height: 300px;
+    }
+    .text-h {
+        padding: 0;
+        text-align: center;
+        
+    }
+    .text-h h1 {
+        font-size: 26px;
+    }
+   .text-h p {
+       line-height: 1.5;
+       font-size: 16px;
+   }
+   .text-h button {
+       width: 90%;
+   }
+   .img-h img {
+       width: 300px;
+       height: 300px;
+       margin-top: 60px;
+   }
+   
+   .c1, .c2, .c3 {
+       width: 300px;
+       height: 400px;
+       background-position: center top;
+       background-size: 180px 180px;
+       padding: 20px;
+       
+   }
+   .c1-text, .c2-text, .c3-text {
+       width: auto;
+       position: relative;
+       top: 50%;
+       text-align: center;
+  }
+  .c1-text h3, .c2-text h3, .c3-text h3 {
+      font-size: 25px;
+      text-align: center;
+      margin-top: 25px;
+  }
+  .c1-text p, .c2-text p, .c3-text p {
+      line-height: 2;
+      font-size: 12px;
+      text-align: center;
+  }
+  .ci {
+      width: 300px;
+      height: 150px;
+      padding: 10px;
+      margin-left: 8%;
+      margin-top: 80px;
+      top:-8.5% ;
+  }
+  .ci h3 {
+      margin-top: 10px;
+      font-size: 15px;
+      margin-bottom: 10px;
+  }
+  .ci button {
+      width: 70%;
+    
+      height: 30px;
+      font-size: 15px;
+  }
+  td {
+      font-size: 16px;
+  }
+  footer {
+      height: 890px;
+  }
+  .g1 {
+      flex-direction: column;
+  }
+  .link-c {
+      margin-left: 8%;
+      gap:5px;
+      flex-direction: column;
+      
+  }
+  .ad {
+      margin-top: -20px;
+      margin-left: 8%;
+  }
+  .link, .link2{
+      margin-bottom: 20px;
+  }
+  .link a, .link2 a {
+      margin-bottom: 20px;
+  }
+  .link2 a:nth-child(3) {
+      margin-bottom: 5px;
+  }
+  .s a i {
+      margin-top: -105px;
+  }
+  .s {
+      margin-left: 23%;
+  }
+  .p {
+     margin-top: 28px;
+     margin-left: 0;
+  }
+}
